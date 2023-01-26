@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Hero } from './Daten/hero';
+import { HEROES } from './Daten/mock-heroes';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontEnd';
+
 }
