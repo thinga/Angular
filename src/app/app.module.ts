@@ -12,6 +12,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { DasboardComponent } from './dasboard/dasboard.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { DasboardComponent } from './dasboard/dasboard.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DasboardComponent
+    DasboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
