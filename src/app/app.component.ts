@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 import { Hero } from './Daten/hero';
 import { HEROES } from './Daten/mock-heroes';

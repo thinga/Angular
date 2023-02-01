@@ -1,0 +1,140 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\thing\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.19.2
+2 info using node@v16.13.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Users\thing\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 7ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\thing\ArdeoInterview\Angular\frontEnd\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:C:\Users\thing\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\thing\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 17ms
+19 timing npm:load:configload Completed in 17ms
+20 timing npm:load:mkdirpcache Completed in 3ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install
+23 verbose argv "install" "--cache" "--legacy-peer-deps"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:C:\Users\thing\ArdeoInterview\Angular\frontEnd\--legacy-peer-deps\_logs
+28 verbose logfile C:\Users\thing\ArdeoInterview\Angular\frontEnd\--legacy-peer-deps\_logs\2023-01-31T21_20_09_526Z-debug-0.log
+29 timing npm:load:logFile Completed in 12ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 39ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 1155ms
+36 timing idealTree:userRequests Completed in 0ms
+37 silly idealTree buildDeps
+38 timing idealTree:#root Completed in 1ms
+39 silly fetch manifest @angular-devkit/build-angular@^15.0.0
+40 timing arborist:ctor Completed in 1ms
+41 http fetch GET 200 https://registry.npmjs.org/npm 2272ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@angular-devkit%2fbuild-angular 1147ms (cache miss)
+43 silly fetch manifest @angular/compiler-cli@^15.0.0
+44 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler-cli 172ms (cache miss)
+45 silly fetch manifest @angular/compiler@15.1.2
+46 http fetch GET 200 https://registry.npmjs.org/@angular%2fcompiler 122ms (cache miss)
+47 silly fetch manifest @angular/core@^15.0.0
+48 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 1571ms (cache miss)
+49 silly fetch manifest rxjs@^6.5.3 || ^7.4.0
+50 http fetch GET 200 https://registry.npmjs.org/rxjs 67ms (cache miss)
+51 silly fetch manifest zone.js@~0.11.4 || ~0.12.0
+52 http fetch GET 200 https://registry.npmjs.org/zone.js 57ms (cache miss)
+53 silly fetch manifest typescript@>=4.8.2 <5.0
+54 http fetch GET 200 https://registry.npmjs.org/typescript 391ms (cache miss)
+55 silly fetch manifest @angular/localize@^15.0.0
+56 http fetch GET 200 https://registry.npmjs.org/@angular%2flocalize 166ms (cache miss)
+57 silly fetch manifest @angular/platform-server@^15.0.0
+58 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-server 1488ms (cache miss)
+59 silly fetch manifest @angular/animations@15.1.2
+60 http fetch GET 200 https://registry.npmjs.org/@angular%2fanimations 103ms (cache miss)
+61 silly fetch manifest @angular/common@15.1.2
+62 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 109ms (cache miss)
+63 silly fetch manifest @angular/platform-browser@15.1.2
+64 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser 1497ms (cache miss)
+65 silly fetch manifest @angular/platform-browser-dynamic@^15.0.0
+66 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser-dynamic 127ms (cache miss)
+67 silly fetch manifest @angular/service-worker@^15.0.0
+68 http fetch GET 200 https://registry.npmjs.org/@angular%2fservice-worker 965ms (cache miss)
+69 silly fetch manifest karma@^6.3.0
+70 http fetch GET 200 https://registry.npmjs.org/karma 73ms (cache miss)
+71 silly fetch manifest ng-packagr@^15.0.0
+72 http fetch GET 200 https://registry.npmjs.org/ng-packagr 766ms (cache miss)
+73 silly fetch manifest tailwindcss@^2.0.0 || ^3.0.0
+74 http fetch GET 200 https://registry.npmjs.org/tailwindcss 168ms (cache miss)
+75 silly fetch manifest tslib@^2.3.0
+76 http fetch GET 200 https://registry.npmjs.org/tslib 52ms (cache miss)
+77 silly fetch manifest protractor@^7.0.0
+78 http fetch GET 200 https://registry.npmjs.org/protractor 770ms (cache miss)
+79 timing idealTree Completed in 11170ms
+80 timing command:install Completed in 11207ms
+81 notice
+81 notice New [31mmajor[39m version of npm available! [31m8.19.2[39m -> [32m9.4.0[39m
+81 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.4.0[39m
+81 notice Run [32mnpm install -g npm@9.4.0[39m to update!
+81 notice
+82 verbose stack Error: could not resolve
+82 verbose stack     at PlaceDep.failPeerConflict (C:\Users\thing\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:549:25)
+82 verbose stack     at PlaceDep.place (C:\Users\thing\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:199:21)
+82 verbose stack     at new PlaceDep (C:\Users\thing\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:73:10)
+82 verbose stack     at C:\Users\thing\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:944:31
+82 verbose stack     at Array.map (<anonymous>)
+82 verbose stack     at Arborist.[buildDepStep] (C:\Users\thing\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:944:8)
+82 verbose stack     at async Arborist.buildIdealTree (C:\Users\thing\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:211:7)
+82 verbose stack     at async Promise.all (index 1)
+82 verbose stack     at async Arborist.reify (C:\Users\thing\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:153:5)
+82 verbose stack     at async Install.exec (C:\Users\thing\AppData\Roaming\npm\node_modules\npm\lib\commands\install.js:145:5)
+83 verbose cwd C:\Users\thing\ArdeoInterview\Angular\frontEnd
+84 verbose Windows_NT 10.0.22621
+85 verbose node v16.13.0
+86 verbose npm  v8.19.2
+87 error code ERESOLVE
+88 error ERESOLVE could not resolve
+89 error
+90 error While resolving: [1m@angular-builders/jest[22m@[1m15.0.0[22m
+90 error Found: [1m@angular-devkit/build-angular[22m@[1m14.2.10[22m[2m[22m
+90 error [2mnode_modules/@angular-devkit/build-angular[22m
+90 error   [33mdev[39m [1m@angular-devkit/build-angular[22m@"[1m^14.2.7[22m" from the root project
+90 error   [35mpeer[39m [1m@angular-devkit/build-angular[22m@"[1m>=12.2.18 <16.0.0[22m" from [1mjest-preset-angular[22m@[1m12.2.3[22m[2m[22m
+90 error   [2mnode_modules/@angular-builders/jest/node_modules/jest-preset-angular[22m
+90 error     [1mjest-preset-angular[22m@"[1m12.2.3[22m" from [1m@angular-builders/jest[22m@[1m15.0.0[22m[2m[22m
+90 error     [2mnode_modules/@angular-builders/jest[22m
+90 error       [33mdev[39m [1m@angular-builders/jest[22m@"[1m^15.0.0[22m" from the root project
+90 error   1 more (jest-preset-angular)
+90 error
+90 error Could not resolve dependency:
+90 error [35mpeer[39m [1m@angular-devkit/build-angular[22m@"[1m^15.0.0[22m" from [1m@angular-builders/jest[22m@[1m15.0.0[22m[2m[22m
+90 error [2mnode_modules/@angular-builders/jest[22m
+90 error   [33mdev[39m [1m@angular-builders/jest[22m@"[1m^15.0.0[22m" from the root project
+90 error
+90 error Conflicting peer dependency: [1m@angular-devkit/build-angular[22m@[1m15.1.3[22m[2m[22m
+90 error [2mnode_modules/@angular-devkit/build-angular[22m
+90 error   [35mpeer[39m [1m@angular-devkit/build-angular[22m@"[1m^15.0.0[22m" from [1m@angular-builders/jest[22m@[1m15.0.0[22m[2m[22m
+90 error   [2mnode_modules/@angular-builders/jest[22m
+90 error     [33mdev[39m [1m@angular-builders/jest[22m@"[1m^15.0.0[22m" from the root project
+90 error
+90 error Fix the upstream dependency conflict, or retry
+90 error this command with --force, or --legacy-peer-deps
+90 error to accept an incorrect (and potentially broken) dependency resolution.
+90 error
+90 error See C:\Users\thing\ArdeoInterview\Angular\frontEnd\--legacy-peer-deps\eresolve-report.txt for a full report.
+91 verbose exit 1
+92 timing npm Completed in 11416ms
+93 verbose unfinished npm timer reify 1675200009711
+94 verbose unfinished npm timer reify:loadTrees 1675200009744
+95 verbose unfinished npm timer idealTree:buildDeps 1675200010901
+96 verbose unfinished npm timer idealTree:node_modules/@angular-builders/jest 1675200010904
+97 verbose code 1
+98 error A complete log of this run can be found in:
+98 error     C:\Users\thing\ArdeoInterview\Angular\frontEnd\--legacy-peer-deps\_logs\2023-01-31T21_20_09_526Z-debug-0.log
