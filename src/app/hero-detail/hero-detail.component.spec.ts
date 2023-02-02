@@ -9,6 +9,7 @@ import { of } from 'rxjs';
 import { Hero } from '../Daten/hero';
 import { RouterTestingModule } from '@angular/router/testing';
 import { NgModel } from '@angular/forms';
+import { Component, ComponentDecorator } from '@angular/core';
 
 
 describe('HeroDetailComponent', () => {
@@ -21,6 +22,8 @@ describe('HeroDetailComponent', () => {
   beforeEach(async () => {
     jest.resetAllMocks();
     heroServiceMock.getHero = jest.fn().mockReturnValue(of({ id: 1, name: 'test' } as Hero));
+    heroServiceMock.updateHero = jest.fn().mockReturnValue(of({ id: 2, name: 'test' } as Hero));
+   
 
     await TestBed.configureTestingModule({
       declarations: [HeroDetailComponent, MockDirective(NgModel)],
@@ -54,4 +57,22 @@ describe('HeroDetailComponent', () => {
     expect(heroServiceMock.getHero).toHaveBeenCalled();
     expect(component.hero).toEqual({ "id": 1, "name": "test" });
   }));
+
+  it('should test save hero', fakeAsync(() => {
+    //given
+    //when
+    component.save();
+    tick();
+    //then
+    expect(heroServiceMock.updateHero).toHaveBeenCalled();
+    expect(component.hero).toEqual({ "id": 1, "name": "test" });
+  }))
+
+  it('should test go back', () => {
+    //given
+    //when
+    component.goBack();
+    //then
+   // expect(locationMock.back).toHaveBeenCalled();
+  })
 });
